@@ -16,13 +16,13 @@
             <div class="col-12 d-flex align-items-center justify-content-center">
 
                 <div class="d-flex justify-content-center align-items-center gap-5">
-                    <div class="logo d-flex flex-column align-items-center ms-3 logo me-5">
+                    <div class="col-6 col-md-4 logo d-flex flex-column align-items-center ms-3 logo me-5">
                         <img class="Zjopow logo"
                             src="https://m.media-amazon.com/images/G/01/digital/video/web/Logo-min.png"
                             alt="Prime Video">
                     </div>
-                    <div class="d-flex align-items-center me-5">
-                        <ul class="d-flex listMenu list-unstyled gap-4 align-items-center mb-0">
+                    <div class="d-none col-4 d-md-flex align-items-center me-5">
+                        <ul class="d-none d-md-flex listMenu list-unstyled gap-4 align-items-center mb-0">
                             <li>
                                 <a href="#">Home</a>
                             </li>
@@ -37,7 +37,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="d-flex align-items-center gap-3">
+                    <div class="col-6 col-md-4 d-flex align-items-center gap-3 justify-content-sm-end gap-sm-5">
                         <div class="icon d-flex justify-content-center align-items-center">
                             <ion-icon name="search-outline"></ion-icon>
                         </div>
@@ -61,8 +61,8 @@
 
     <div class="container-fluid  firstContainer">
         <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6">
+            <div class="d-sm-none col-md-6 d-md-block"></div>
+            <div class="d-sm-none col-md-6 d-md-block">
                 <div class="right mt-5 d-flex flex-column me-5">
                     <h1 class="text-white fs-3">Watch movies and TV shows</h1>
                     <p class="text-white mt-3">With Amazon Prime, watch popular movies and TV shows,
@@ -70,7 +70,32 @@
                         advantage of unlimited 1-day shipping on 2 million products at no extra cost and 2-3 day
                         shipping on millions more.
                     </p>
-                    <div class="d-flex flex-column buttonsClass justify-content-center">
+                    <div class="col-4 d-flex flex-column buttonsClass justify-content-center">
+                        <button class="btn btn-primary">Prime Member? Sign in</button>
+                        <span class="text-white text-center">or</span>
+                        <button class="btn btn-primary mt-2">Subscribe and use for free for<br>30 days</button>
+                    </div>
+
+                    <span class="text-white mt-2 spanParagraf">After 30 days, Amazon Prime automatically enews at €49.90/year or
+                        €4.99/month. Italian subtitles or dubbing avaiable for most titles.
+                    </span>
+                    <span class="text-primary fw-bold">Are you a student?</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black d-md-none h-75">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="right d-flex flex-column align-items-center">
+                    <h1 class="text-white fs-3">Watch movies and TV shows</h1>
+                    <p class="text-white mt-3">With Amazon Prime, watch popular movies and TV shows,
+                        including Amazon Originals Tom Clancy's: Jack Ryan, The Bad Guy and LoL Season 2. Also, take
+                        advantage of unlimited 1-day shipping on 2 million products at no extra cost and 2-3 day
+                        shipping on millions more.
+                    </p>
+                    <div class="col-4 d-flex flex-column buttonsClass justify-content-center">
                         <button class="btn btn-primary">Prime Member? Sign in</button>
                         <span class="text-white text-center">or</span>
                         <button class="btn btn-primary mt-2">Subscribe and use for free for<br>30 days</button>
