@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <nav class="personal navbar container-fluid d-flex bg-black">
-        <div class="row w-100">
-            <div class="col-12 d-flex align-items-center justify-content-center">
+    <nav class="personal navbar container-fluid d-flex bg-black d-flex justify-content-center">
+        <div class="row w-100 d-flex justify-content-around">
+            <div class="col-11">
 
                 <div class="d-flex justify-content-center align-items-center gap-5">
                     <div class="col-6 col-md-4 logo d-flex flex-column align-items-center ms-3 logo me-5">
@@ -21,7 +21,7 @@
                             src="https://m.media-amazon.com/images/G/01/digital/video/web/Logo-min.png"
                             alt="Prime Video">
                     </div>
-                    <div class="d-none col-4 d-md-flex align-items-center me-5">
+                    <div class="d-none col-4 d-md-flex align-items-center">
                         <ul class="d-none d-md-flex listMenu list-unstyled gap-4 align-items-center mb-0">
                             <li>
                                 <a href="#">Home</a>
@@ -41,7 +41,7 @@
                         <div class="icon d-flex justify-content-center align-items-center">
                             <ion-icon name="search-outline"></ion-icon>
                         </div>
-                        <ul class="d-none d-md-flex listMenu list-unstyled gap-4 align-items-center mb-0">
+                        <ul class="d-sm-none d-md-none d-lg-flex listMenu list-unstyled gap-4 align-items-center mb-0">
                             <li>
                                 <a href="#">Subscribe Now</a>
                             </li>
@@ -59,11 +59,11 @@
         </div>
     </nav>
 
-    <div class="container-fluid  firstContainer">
-        <div class="row">
+    <div class="container-fluid firstContainer">
+        <div class="row h-100">
             <div class="d-sm-none col-md-6 d-md-block"></div>
             <div class="d-sm-none col-md-6 d-md-block">
-                <div class="right mt-5 d-flex flex-column me-5">
+                <div class="right d-flex flex-column p-4">
                     <h1 class="text-white fs-3">Watch movies and TV shows</h1>
                     <p class="text-white mt-3">With Amazon Prime, watch popular movies and TV shows,
                         including Amazon Originals Tom Clancy's: Jack Ryan, The Bad Guy and LoL Season 2. Also, take
@@ -76,7 +76,8 @@
                         <button class="btn btn-primary mt-2">Subscribe and use for free for<br>30 days</button>
                     </div>
 
-                    <span class="text-white mt-2 spanParagraf">After 30 days, Amazon Prime automatically enews at €49.90/year or
+                    <span class="text-white mt-2 spanParagraf">After 30 days, Amazon Prime automatically enews at
+                        €49.90/year or
                         €4.99/month. Italian subtitles or dubbing avaiable for most titles.
                     </span>
                     <span class="text-primary fw-bold">Are you a student?</span>
@@ -85,11 +86,11 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-black d-md-none h-75">
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="right d-flex flex-column align-items-center">
-                    <h1 class="text-white fs-3">Watch movies and TV shows</h1>
+    <div class="container-fluid bg-black d-md-none middleContainer d-flex justify-content-center align-items-center">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 text-center d-flex justify-content-center align-items-center">
+                <div class="d-flex flex-column align-items-center">
+                    <h1 class="text-white">Watch movies and TV shows</h1>
                     <p class="text-white mt-3">With Amazon Prime, watch popular movies and TV shows,
                         including Amazon Originals Tom Clancy's: Jack Ryan, The Bad Guy and LoL Season 2. Also, take
                         advantage of unlimited 1-day shipping on 2 million products at no extra cost and 2-3 day
@@ -101,7 +102,8 @@
                         <button class="btn btn-primary mt-2">Subscribe and use for free for<br>30 days</button>
                     </div>
 
-                    <span class="text-white mt-2 spanParagraf">After 30 days, Amazon Prime automatically enews at €49.90/year or
+                    <span class="text-white mt-2 spanParagraf">After 30 days, Amazon Prime automatically enews at
+                        €49.90/year or
                         €4.99/month. Italian subtitles or dubbing avaiable for most titles.
                     </span>
                     <span class="text-primary fw-bold">Are you a student?</span>
@@ -110,10 +112,22 @@
         </div>
     </div>
 
-    <div class="container-fluid secondContainer">
-        <div class="row">
-            <div class="col-12">
-
+    <div class="container-fluid secondContainer w-100">
+        <div class="row h-100 d-flex flex-sm-column flex-md-row align-items-md-center">
+            <div class="col-sm-12 d-md-none h-50 w-100"></div>
+            <div class="col-sm-12 col-md-6 h-50 w-100 text-center text-md-start d-flex align-items-center justify-content-center justify-content-md-start pb-5 ps-md-4">
+                <div class="col-10 col-md-6 right">
+                    <h1 class="text-white">Amazon ti porta la UEFA Champions League</h1>
+                    <p class="text-white mt-3">Iscriviti ad Amazon Prime per guardare la migliore partita del
+                        mercoledì della
+                        UEFA Champions League
+                        in diretta e in esclusiva su Prime Video insieme agli highlights di tutte le partite.</p>
+                    <div class="d-flex justify-content-center justify-content-md-start mb-2">
+                        <button class="btn btn-primary text-center fw-bold text-white">Iscriviti e usalo gratis per 30<br>
+                            giorni</button>
+                    </div>
+                    <span class="text-white text-center">Dopo 30 giorni, l’iscrizione Amazon Prime si rinnova automaticamente al prezzo di EUR 49,90/anno o EUR 4,99/mese.</span>
+                </div>
             </div>
         </div>
     </div>
@@ -126,4 +140,4 @@
     <script src="./js/main.js"></script>
 </body>
 
-</html>
+</html> 
